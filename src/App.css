@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +36,113 @@
     transform: rotate(360deg);
   }
 }
+ */
+
+/* ====== Navbar ====== */
+.navbar ul li a:hover {
+  background-color: #fd164c;
+  color: #fff;
+}
+.navbar {
+  border-bottom: 3px solid #fd164c;
+  background: linear-gradient(to top, #161616, #2a2a2a);
+}
+.navbar-toggler:focus {
+  color: #fd164c;
+}
+/*  ======== ./NAVBAR ===========  */
+
+/* =========== Banner =============  */
+.banner {
+  background: linear-gradient(to top, #161616, #2a2a2a);
+  padding: 3rem 0;
+}
+.banner .dp {
+  margin-top: -2.5rem;
+  background-color: #fd164c;
+  border-radius: 50%;
+  width: 84px;
+  height: 84px;
+}
+.banner .topBar {
+  background: linear-gradient(to top, #515554, #696969);
+  border-color: transparent !important;
+}
+.banner .btn.btn-primary {
+  background-color: #fd164c !important;
+}
+/* =========== ./Banner =============  */
+
+/* =========== Hosting =============  */
+.hosting .container {
+  padding-bottom: 7rem;
+}
+.hosting h4 {
+  padding-left: 6rem;
+}
+.hosting > .container > .row {
+  padding-left: 6rem;
+}
+.hosting .circles div {
+  width: 30px;
+  height: 30px;
+  background-color: #a8a8a8;
+  border-radius: 50%;
+}
+.hosting .circles div:last-child,
+.hosting .btn,
+.clients .btn {
+  background-color: #fd164c;
+}
+.hosting .btn {
+  margin-top: 4rem;
+}
+/* =========== ./Hosting =============  */
+
+/* ====== Clients ====== */
+.clients {
+  padding-bottom: 3rem;
+}
+.clients h5 span {
+  padding-left: 6rem;
+  color: #fd164c;
+}
+.clients .col {
+  padding-left: 6rem;
+}
+.clients,
+.hosting {
+  background-color: #f6f6f6;
+}
+.clients .col-sm:first-child {
+  padding-left: 6rem;
+}
+/*  ======== ./Clients ===========  */
+
+/* === Footer === */
+footer{
+  background-color: #313131;
+}
+footer ol li:hover{
+  color: #fd164c;
+}
+/* === Footer === */
+/* === Media Query === */
+@media screen and (max-width: 991.98px) {
+  .hosting h4 {
+    padding-left: 0rem;
+  }
+  .hosting > .container > .row {
+    padding-left: 0rem;
+  }
+  .hosting .btn {
+    margin-top: 0rem;
+  }
+  .clients h5 span {
+    padding-left: 0rem;
+  }
+  .clients .col-sm:first-child {
+    padding-left: 0rem;
+  }
+}
+/* === Media Query === */
